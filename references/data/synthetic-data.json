@@ -1,0 +1,698 @@
+{
+  "users": [
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "email": "sophie.zhang@gmail.com",
+      "phone": "+61412345601",
+      "full_name": "Sophie Zhang",
+      "password_hash": "$2b$12$eImiTXuWVxfM37uY4JANjQ==",
+      "role": "passenger",
+      "created_at": "2024-01-15T09:23:11Z",
+      "updated_at": "2025-03-01T14:02:33Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UBC",
+      "email": "liam.oconnor@hotmail.com",
+      "phone": "+61423456702",
+      "full_name": "Liam O'Connor",
+      "password_hash": "$2b$12$fJnjUYXvWymS48vZaKBOkR==",
+      "role": "passenger",
+      "created_at": "2024-03-22T17:45:00Z",
+      "updated_at": "2025-02-28T08:11:55Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UCD",
+      "email": "priya.nair@outlook.com",
+      "phone": "+61434567803",
+      "full_name": "Priya Nair",
+      "password_hash": "$2b$12$gKokVZYwXznT59wAbLCPls==",
+      "role": "passenger",
+      "created_at": "2024-06-10T11:30:45Z",
+      "updated_at": "2025-03-10T19:44:22Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UDE",
+      "email": "james.wilson@gmail.com",
+      "phone": "+61445678904",
+      "full_name": "James Wilson",
+      "password_hash": "$2b$12$hLplWAZxYaoU60xBcMDQmt==",
+      "role": "passenger",
+      "created_at": "2023-11-05T06:15:30Z",
+      "updated_at": "2025-01-20T10:30:00Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UEF",
+      "email": "amara.okafor@gmail.com",
+      "phone": "+61456789005",
+      "full_name": "Amara Okafor",
+      "password_hash": "$2b$12$iMqmXBAyZbpV71yCdNERnu==",
+      "role": "passenger",
+      "created_at": "2024-08-19T13:00:00Z",
+      "updated_at": "2025-03-12T22:15:44Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UFG",
+      "email": "carlos.mendez@gmail.com",
+      "phone": "+61467890106",
+      "full_name": "Carlos Mendez",
+      "password_hash": "$2b$12$jNrnYCBzAcqW82zDeOFSov==",
+      "role": "driver",
+      "created_at": "2023-09-01T08:00:00Z",
+      "updated_at": "2025-03-14T07:45:12Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UGH",
+      "email": "wei.chen@gmail.com",
+      "phone": "+61478901207",
+      "full_name": "Wei Chen",
+      "password_hash": "$2b$12$kOsoZDCABdrX93AEfPGTpw==",
+      "role": "driver",
+      "created_at": "2023-12-15T10:30:00Z",
+      "updated_at": "2025-03-13T18:22:09Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UHI",
+      "email": "fatima.ali@gmail.com",
+      "phone": "+61489012308",
+      "full_name": "Fatima Ali",
+      "password_hash": "$2b$12$lPtpAEDBCesY04BFgQHUqx==",
+      "role": "driver",
+      "created_at": "2024-02-20T09:15:00Z",
+      "updated_at": "2025-03-14T11:05:33Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UIJ",
+      "email": "noah.thompson@gmail.com",
+      "phone": "+61490123409",
+      "full_name": "Noah Thompson",
+      "password_hash": "$2b$12$mQuqBFECDftZ15CGhRIVry==",
+      "role": "driver",
+      "created_at": "2024-04-11T14:45:00Z",
+      "updated_at": "2025-03-11T09:30:55Z"
+    },
+    {
+      "id": "usr_01HGKX2M3N4P5Q6R7S8T9UJK",
+      "email": "admin@booma.com.au",
+      "phone": "+61400000000",
+      "full_name": "Booma Admin",
+      "password_hash": "$2b$12$nRvrCGFDEguA26DHiSJWsz==",
+      "role": "admin",
+      "created_at": "2023-06-01T00:00:00Z",
+      "updated_at": "2025-03-14T00:00:00Z"
+    }
+  ],
+
+  "drivers": [
+    {
+      "id": "drv_01HGKX2M3N4P5Q6R7S8T9UA1",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UFG",
+      "vehicle_make": "Toyota",
+      "vehicle_model": "Camry",
+      "vehicle_year": 2022,
+      "vehicle_colour": "Silver",
+      "vehicle_plate": "ABC123",
+      "vehicle_type": "sedan",
+      "status": "available",
+      "current_lat": -33.8688,
+      "current_lng": 151.2093,
+      "rating": 4.87,
+      "total_trips": 1243,
+      "licence_number": "NSW12345678",
+      "licence_expiry": "2027-09-30",
+      "accreditation_number": "RMS-DRV-00781",
+      "online_since": "2025-03-14T06:00:00Z"
+    },
+    {
+      "id": "drv_01HGKX2M3N4P5Q6R7S8T9UB2",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UGH",
+      "vehicle_make": "Hyundai",
+      "vehicle_model": "Ioniq 6",
+      "vehicle_year": 2023,
+      "vehicle_colour": "Gravity Gold",
+      "vehicle_plate": "EV9988",
+      "vehicle_type": "sedan",
+      "status": "on_trip",
+      "current_lat": -33.8921,
+      "current_lng": 151.1958,
+      "rating": 4.95,
+      "total_trips": 876,
+      "licence_number": "NSW98765432",
+      "licence_expiry": "2026-04-15",
+      "accreditation_number": "RMS-DRV-01122",
+      "online_since": "2025-03-14T07:30:00Z"
+    },
+    {
+      "id": "drv_01HGKX2M3N4P5Q6R7S8T9UC3",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UHI",
+      "vehicle_make": "Tesla",
+      "vehicle_model": "Model Y",
+      "vehicle_year": 2024,
+      "vehicle_colour": "Pearl White",
+      "vehicle_plate": "TSLVY24",
+      "vehicle_type": "suv",
+      "status": "available",
+      "current_lat": -33.8650,
+      "current_lng": 151.2100,
+      "rating": 4.92,
+      "total_trips": 531,
+      "licence_number": "NSW55544433",
+      "licence_expiry": "2028-01-20",
+      "accreditation_number": "RMS-DRV-02045",
+      "online_since": "2025-03-14T08:15:00Z"
+    },
+    {
+      "id": "drv_01HGKX2M3N4P5Q6R7S8T9UD4",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UIJ",
+      "vehicle_make": "Kia",
+      "vehicle_model": "Carnival",
+      "vehicle_year": 2023,
+      "vehicle_colour": "Snow White Pearl",
+      "vehicle_plate": "KIA7701",
+      "vehicle_type": "minivan",
+      "status": "offline",
+      "current_lat": -33.9200,
+      "current_lng": 151.1800,
+      "rating": 4.78,
+      "total_trips": 389,
+      "licence_number": "NSW33322211",
+      "licence_expiry": "2027-06-30",
+      "accreditation_number": "RMS-DRV-03318",
+      "online_since": null
+    }
+  ],
+
+  "saved_addresses": [
+    {
+      "id": "addr_01HGKX01",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "label": "Home",
+      "formatted_address": "42 Glebe Point Road, Glebe NSW 2037",
+      "lat": -33.8796,
+      "lng": 151.1862
+    },
+    {
+      "id": "addr_01HGKX02",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "label": "Work",
+      "formatted_address": "1 Macquarie Place, Sydney NSW 2000",
+      "lat": -33.8617,
+      "lng": 151.2099
+    },
+    {
+      "id": "addr_01HGKX03",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "label": "Gym",
+      "formatted_address": "45 Bay Street, Ultimo NSW 2007",
+      "lat": -33.8833,
+      "lng": 151.1964
+    },
+    {
+      "id": "addr_01HGKX04",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UBC",
+      "label": "Home",
+      "formatted_address": "88 Crown Street, Surry Hills NSW 2010",
+      "lat": -33.8872,
+      "lng": 151.2107
+    },
+    {
+      "id": "addr_01HGKX05",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UBC",
+      "label": "Work",
+      "formatted_address": "55 Market Street, Sydney NSW 2000",
+      "lat": -33.8693,
+      "lng": 151.2074
+    },
+    {
+      "id": "addr_01HGKX06",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UCD",
+      "label": "Home",
+      "formatted_address": "12 Pacific Highway, St Leonards NSW 2065",
+      "lat": -33.8229,
+      "lng": 151.1946
+    },
+    {
+      "id": "addr_01HGKX07",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UCD",
+      "label": "Work",
+      "formatted_address": "400 George Street, Sydney NSW 2000",
+      "lat": -33.8706,
+      "lng": 151.2067
+    },
+    {
+      "id": "addr_01HGKX08",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UDE",
+      "label": "Home",
+      "formatted_address": "7 Bent Street, Neutral Bay NSW 2089",
+      "lat": -33.8342,
+      "lng": 151.2177
+    },
+    {
+      "id": "addr_01HGKX09",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UDE",
+      "label": "Airport",
+      "formatted_address": "Sydney Kingsford Smith Airport, Mascot NSW 2020",
+      "lat": -33.9399,
+      "lng": 151.1753
+    },
+    {
+      "id": "addr_01HGKX10",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UEF",
+      "label": "Home",
+      "formatted_address": "3 Pyrmont Bridge Road, Pyrmont NSW 2009",
+      "lat": -33.8755,
+      "lng": 151.1940
+    },
+    {
+      "id": "addr_01HGKX11",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UEF",
+      "label": "Work",
+      "formatted_address": "201 Kent Street, Sydney NSW 2000",
+      "lat": -33.8669,
+      "lng": 151.2038
+    }
+  ],
+
+  "rides": [
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7H8I",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UA1",
+      "status": "COMPLETED",
+      "vehicle_type": "sedan",
+      "pickup_address": "42 Glebe Point Road, Glebe NSW 2037",
+      "pickup_lat": -33.8796,
+      "pickup_lng": 151.1862,
+      "destination_address": "1 Macquarie Place, Sydney NSW 2000",
+      "destination_lat": -33.8617,
+      "destination_lng": 151.2099,
+      "fare_estimate": 18.50,
+      "fare_final": 18.50,
+      "distance_km": 4.2,
+      "duration_min": 14,
+      "surge_multiplier": 1.0,
+      "requested_at": "2025-03-14T08:02:15Z",
+      "accepted_at": "2025-03-14T08:03:44Z",
+      "driver_arrived_at": "2025-03-14T08:08:30Z",
+      "started_at": "2025-03-14T08:09:55Z",
+      "completed_at": "2025-03-14T08:23:41Z",
+      "passenger_rating": 5,
+      "driver_rating": 5,
+      "route": {
+        "polyline_encoded": "~knbEki|y[BCDEFG",
+        "waypoints": [
+          { "lat": -33.8796, "lng": 151.1862, "label": "Pickup — Glebe Point Rd" },
+          { "lat": -33.8780, "lng": 151.1890, "label": "" },
+          { "lat": -33.8760, "lng": 151.1940, "label": "" },
+          { "lat": -33.8735, "lng": 151.1990, "label": "" },
+          { "lat": -33.8710, "lng": 151.2040, "label": "" },
+          { "lat": -33.8680, "lng": 151.2075, "label": "" },
+          { "lat": -33.8617, "lng": 151.2099, "label": "Destination — Macquarie Place" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8617, "lng": 151.2099 },
+          "southwest": { "lat": -33.8796, "lng": 151.1862 }
+        }
+      }
+    },
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7H9J",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UBC",
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UB2",
+      "status": "IN_PROGRESS",
+      "vehicle_type": "sedan",
+      "pickup_address": "88 Crown Street, Surry Hills NSW 2010",
+      "pickup_lat": -33.8872,
+      "pickup_lng": 151.2107,
+      "destination_address": "Sydney Kingsford Smith Airport, Mascot NSW 2020",
+      "destination_lat": -33.9399,
+      "destination_lng": 151.1753,
+      "fare_estimate": 32.00,
+      "fare_final": null,
+      "distance_km": 9.8,
+      "duration_min": 22,
+      "surge_multiplier": 1.2,
+      "requested_at": "2025-03-14T09:15:00Z",
+      "accepted_at": "2025-03-14T09:16:30Z",
+      "driver_arrived_at": "2025-03-14T09:22:10Z",
+      "started_at": "2025-03-14T09:24:00Z",
+      "completed_at": null,
+      "passenger_rating": null,
+      "driver_rating": null,
+      "route": {
+        "polyline_encoded": "~rnbEwp|y[HIJKLM",
+        "waypoints": [
+          { "lat": -33.8872, "lng": 151.2107, "label": "Pickup — Crown St, Surry Hills" },
+          { "lat": -33.8960, "lng": 151.2080, "label": "" },
+          { "lat": -33.9050, "lng": 151.2020, "label": "" },
+          { "lat": -33.9100, "lng": 151.1950, "label": "" },
+          { "lat": -33.9200, "lng": 151.1880, "label": "" },
+          { "lat": -33.9300, "lng": 151.1810, "label": "" },
+          { "lat": -33.9399, "lng": 151.1753, "label": "Destination — Sydney Airport" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8872, "lng": 151.2107 },
+          "southwest": { "lat": -33.9399, "lng": 151.1753 }
+        }
+      }
+    },
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7HAK",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UCD",
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UC3",
+      "status": "COMPLETED",
+      "vehicle_type": "suv",
+      "pickup_address": "12 Pacific Highway, St Leonards NSW 2065",
+      "pickup_lat": -33.8229,
+      "pickup_lng": 151.1946,
+      "destination_address": "400 George Street, Sydney NSW 2000",
+      "destination_lat": -33.8706,
+      "destination_lng": 151.2067,
+      "fare_estimate": 28.00,
+      "fare_final": 31.50,
+      "distance_km": 7.6,
+      "duration_min": 29,
+      "surge_multiplier": 1.5,
+      "requested_at": "2025-03-14T07:45:00Z",
+      "accepted_at": "2025-03-14T07:46:22Z",
+      "driver_arrived_at": "2025-03-14T07:53:10Z",
+      "started_at": "2025-03-14T07:55:00Z",
+      "completed_at": "2025-03-14T08:24:00Z",
+      "passenger_rating": 4,
+      "driver_rating": 5,
+      "route": {
+        "polyline_encoded": "pkkbEil{y[NOPQRS",
+        "waypoints": [
+          { "lat": -33.8229, "lng": 151.1946, "label": "Pickup — Pacific Hwy, St Leonards" },
+          { "lat": -33.8310, "lng": 151.1960, "label": "" },
+          { "lat": -33.8400, "lng": 151.1985, "label": "Harbour Bridge" },
+          { "lat": -33.8490, "lng": 151.2010, "label": "" },
+          { "lat": -33.8560, "lng": 151.2035, "label": "" },
+          { "lat": -33.8630, "lng": 151.2055, "label": "" },
+          { "lat": -33.8706, "lng": 151.2067, "label": "Destination — George St, Sydney" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8229, "lng": 151.2067 },
+          "southwest": { "lat": -33.8706, "lng": 151.1946 }
+        }
+      }
+    },
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7HBL",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UDE",
+      "driver_id": null,
+      "status": "CANCELLED",
+      "vehicle_type": "sedan",
+      "pickup_address": "7 Bent Street, Neutral Bay NSW 2089",
+      "pickup_lat": -33.8342,
+      "pickup_lng": 151.2177,
+      "destination_address": "Sydney CBD, Sydney NSW 2000",
+      "destination_lat": -33.8688,
+      "destination_lng": 151.2093,
+      "fare_estimate": 22.00,
+      "fare_final": null,
+      "distance_km": 5.1,
+      "duration_min": null,
+      "surge_multiplier": 1.0,
+      "requested_at": "2025-03-13T18:30:00Z",
+      "accepted_at": null,
+      "driver_arrived_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "cancellation_reason": "no_drivers_available",
+      "passenger_rating": null,
+      "driver_rating": null,
+      "route": {
+        "polyline_encoded": null,
+        "waypoints": [
+          { "lat": -33.8342, "lng": 151.2177, "label": "Pickup — Bent St, Neutral Bay" },
+          { "lat": -33.8688, "lng": 151.2093, "label": "Destination — Sydney CBD" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8342, "lng": 151.2177 },
+          "southwest": { "lat": -33.8688, "lng": 151.2093 }
+        }
+      }
+    },
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7HCM",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UEF",
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UA1",
+      "status": "COMPLETED",
+      "vehicle_type": "sedan",
+      "pickup_address": "Star Casino, 80 Pyrmont Street, Pyrmont NSW 2009",
+      "pickup_lat": -33.8707,
+      "pickup_lng": 151.1954,
+      "destination_address": "Westfield Bondi Junction, 500 Oxford Street, Bondi Junction NSW 2022",
+      "destination_lat": -33.8918,
+      "destination_lng": 151.2503,
+      "fare_estimate": 24.50,
+      "fare_final": 26.00,
+      "distance_km": 6.9,
+      "duration_min": 21,
+      "surge_multiplier": 1.0,
+      "requested_at": "2025-03-12T13:00:00Z",
+      "accepted_at": "2025-03-12T13:01:15Z",
+      "driver_arrived_at": "2025-03-12T13:06:50Z",
+      "started_at": "2025-03-12T13:08:00Z",
+      "completed_at": "2025-03-12T13:29:00Z",
+      "passenger_rating": 5,
+      "driver_rating": 4,
+      "route": {
+        "polyline_encoded": "jnnbEmk{y[TUVWXY",
+        "waypoints": [
+          { "lat": -33.8707, "lng": 151.1954, "label": "Pickup — Star Casino, Pyrmont" },
+          { "lat": -33.8730, "lng": 151.2020, "label": "" },
+          { "lat": -33.8770, "lng": 151.2100, "label": "" },
+          { "lat": -33.8820, "lng": 151.2200, "label": "" },
+          { "lat": -33.8870, "lng": 151.2330, "label": "" },
+          { "lat": -33.8900, "lng": 151.2430, "label": "" },
+          { "lat": -33.8918, "lng": 151.2503, "label": "Destination — Westfield Bondi Junction" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8707, "lng": 151.2503 },
+          "southwest": { "lat": -33.8918, "lng": 151.1954 }
+        }
+      }
+    },
+    {
+      "id": "ride_01HGKX3A1B2C3D4E5F6G7HDN",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UC3",
+      "status": "COMPLETED",
+      "vehicle_type": "suv",
+      "pickup_address": "Sydney Kingsford Smith Airport, Mascot NSW 2020",
+      "pickup_lat": -33.9399,
+      "pickup_lng": 151.1753,
+      "destination_address": "42 Glebe Point Road, Glebe NSW 2037",
+      "destination_lat": -33.8796,
+      "destination_lng": 151.1862,
+      "fare_estimate": 42.00,
+      "fare_final": 42.00,
+      "distance_km": 11.4,
+      "duration_min": 26,
+      "surge_multiplier": 1.0,
+      "requested_at": "2025-03-10T22:15:00Z",
+      "accepted_at": "2025-03-10T22:16:40Z",
+      "driver_arrived_at": "2025-03-10T22:28:00Z",
+      "started_at": "2025-03-10T22:30:00Z",
+      "completed_at": "2025-03-10T22:56:00Z",
+      "passenger_rating": 5,
+      "driver_rating": 5,
+      "route": {
+        "polyline_encoded": "~|}bEia|y[ZABC12",
+        "waypoints": [
+          { "lat": -33.9399, "lng": 151.1753, "label": "Pickup — Sydney Airport T2/T3" },
+          { "lat": -33.9310, "lng": 151.1780, "label": "" },
+          { "lat": -33.9210, "lng": 151.1800, "label": "" },
+          { "lat": -33.9100, "lng": 151.1820, "label": "" },
+          { "lat": -33.9000, "lng": 151.1840, "label": "" },
+          { "lat": -33.8900, "lng": 151.1850, "label": "" },
+          { "lat": -33.8796, "lng": 151.1862, "label": "Destination — Glebe Point Rd" }
+        ],
+        "bounds": {
+          "northeast": { "lat": -33.8796, "lng": 151.1862 },
+          "southwest": { "lat": -33.9399, "lng": 151.1753 }
+        }
+      }
+    }
+  ],
+
+  "payments": [
+    {
+      "id": "pay_01HGKX4A1B2C3D4E5F6G7H8I",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7H8I",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "stripe_payment_intent_id": "pi_3OtXmNLkdIwHu7it0mZ9KABC",
+      "stripe_customer_id": "cus_PaXmNLkdIwHu7it",
+      "stripe_payment_method_id": "pm_1OtXmNLkdIwHu7itVISA4321",
+      "amount": 18.50,
+      "currency": "AUD",
+      "status": "succeeded",
+      "card_brand": "visa",
+      "card_last4": "4321",
+      "idempotency_key": "idem_ride_01HGKX3A1B2C3D4E5F6G7H8I_v1",
+      "captured_at": "2025-03-14T08:23:55Z",
+      "driver_payout_amount": 13.88,
+      "driver_payout_status": "paid",
+      "booma_commission": 4.62,
+      "receipt_url": "https://receipts.booma.com.au/pay_01HGKX4A1B2C3D4E5F6G7H8I.pdf"
+    },
+    {
+      "id": "pay_01HGKX4A1B2C3D4E5F6G7HAK",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7HAK",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UCD",
+      "stripe_payment_intent_id": "pi_3OtXmNLkdIwHu7it0mZ9KDEF",
+      "stripe_customer_id": "cus_QbYnOMLkdJxIv8ju",
+      "stripe_payment_method_id": "pm_1OtXmNLkdIwHu7itMC5678",
+      "amount": 31.50,
+      "currency": "AUD",
+      "status": "succeeded",
+      "card_brand": "mastercard",
+      "card_last4": "5678",
+      "idempotency_key": "idem_ride_01HGKX3A1B2C3D4E5F6G7HAK_v1",
+      "captured_at": "2025-03-14T08:24:15Z",
+      "driver_payout_amount": 23.63,
+      "driver_payout_status": "paid",
+      "booma_commission": 7.87,
+      "receipt_url": "https://receipts.booma.com.au/pay_01HGKX4A1B2C3D4E5F6G7HAK.pdf"
+    },
+    {
+      "id": "pay_01HGKX4A1B2C3D4E5F6G7HCM",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7HCM",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UEF",
+      "stripe_payment_intent_id": "pi_3OtXmNLkdIwHu7it0mZ9KGHI",
+      "stripe_customer_id": "cus_RcZoPNMlkKyJw9kv",
+      "stripe_payment_method_id": "pm_1OtXmNLkdIwHu7itAMEX9012",
+      "amount": 26.00,
+      "currency": "AUD",
+      "status": "succeeded",
+      "card_brand": "amex",
+      "card_last4": "9012",
+      "idempotency_key": "idem_ride_01HGKX3A1B2C3D4E5F6G7HCM_v1",
+      "captured_at": "2025-03-12T13:29:15Z",
+      "driver_payout_amount": 19.50,
+      "driver_payout_status": "paid",
+      "booma_commission": 6.50,
+      "receipt_url": "https://receipts.booma.com.au/pay_01HGKX4A1B2C3D4E5F6G7HCM.pdf"
+    },
+    {
+      "id": "pay_01HGKX4A1B2C3D4E5F6G7HDN",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7HDN",
+      "passenger_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "stripe_payment_intent_id": "pi_3OtXmNLkdIwHu7it0mZ9KJKL",
+      "stripe_customer_id": "cus_PaXmNLkdIwHu7it",
+      "stripe_payment_method_id": "pm_1OtXmNLkdIwHu7itVISA4321",
+      "amount": 42.00,
+      "currency": "AUD",
+      "status": "succeeded",
+      "card_brand": "visa",
+      "card_last4": "4321",
+      "idempotency_key": "idem_ride_01HGKX3A1B2C3D4E5F6G7HDN_v1",
+      "captured_at": "2025-03-10T22:56:18Z",
+      "driver_payout_amount": 31.50,
+      "driver_payout_status": "paid",
+      "booma_commission": 10.50,
+      "receipt_url": "https://receipts.booma.com.au/pay_01HGKX4A1B2C3D4E5F6G7HDN.pdf"
+    }
+  ],
+
+  "refresh_tokens": [
+    {
+      "id": "rt_01HGKX5A1B2C3D4E",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UAB",
+      "token_hash": "$sha256$a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6ab",
+      "expires_at": "2025-04-13T14:02:33Z",
+      "revoked": false,
+      "created_at": "2025-03-14T14:02:33Z",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "ip_address": "103.50.22.14"
+    },
+    {
+      "id": "rt_01HGKX5A1B2C3D4F",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UBC",
+      "token_hash": "$sha256$b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1bc",
+      "expires_at": "2025-04-13T08:11:55Z",
+      "revoked": false,
+      "created_at": "2025-03-14T08:11:55Z",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)",
+      "ip_address": "58.174.101.8"
+    },
+    {
+      "id": "rt_01HGKX5A1B2C3D4G",
+      "user_id": "usr_01HGKX2M3N4P5Q6R7S8T9UFG",
+      "token_hash": "$sha256$c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2cd",
+      "expires_at": "2025-04-13T07:45:12Z",
+      "revoked": false,
+      "created_at": "2025-03-14T07:45:12Z",
+      "user_agent": "Booma Driver App/2.1.0 (Android 14; Samsung SM-G998B)",
+      "ip_address": "1.145.22.91"
+    }
+  ],
+
+  "gps_snapshots": [
+    {
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UA1",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7H8I",
+      "recorded_at": "2025-03-14T08:10:00Z",
+      "lat": -33.8780,
+      "lng": 151.1890,
+      "speed_kmh": 32,
+      "heading_deg": 75,
+      "accuracy_m": 5
+    },
+    {
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UA1",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7H8I",
+      "recorded_at": "2025-03-14T08:10:04Z",
+      "lat": -33.8775,
+      "lng": 151.1902,
+      "speed_kmh": 35,
+      "heading_deg": 78,
+      "accuracy_m": 5
+    },
+    {
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UB2",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7H9J",
+      "recorded_at": "2025-03-14T09:30:00Z",
+      "lat": -33.9100,
+      "lng": 151.1950,
+      "speed_kmh": 55,
+      "heading_deg": 210,
+      "accuracy_m": 4
+    },
+    {
+      "driver_id": "drv_01HGKX2M3N4P5Q6R7S8T9UB2",
+      "ride_id": "ride_01HGKX3A1B2C3D4E5F6G7H9J",
+      "recorded_at": "2025-03-14T09:30:04Z",
+      "lat": -33.9106,
+      "lng": 151.1941,
+      "speed_kmh": 54,
+      "heading_deg": 212,
+      "accuracy_m": 4
+    }
+  ],
+
+  "map_context": {
+    "region": "Sydney, NSW, Australia",
+    "bounding_box": {
+      "northeast": { "lat": -33.5781, "lng": 151.3430 },
+      "southwest": { "lat": -34.1183, "lng": 150.5209 }
+    },
+    "default_center": { "lat": -33.8688, "lng": 151.2093 },
+    "default_zoom": 13,
+    "tile_provider": "mapbox",
+    "map_style": "mapbox://styles/mapbox/streets-v12",
+    "landmarks": [
+      { "name": "Sydney CBD", "lat": -33.8688, "lng": 151.2093 },
+      { "name": "Sydney Airport", "lat": -33.9399, "lng": 151.1753 },
+      { "name": "Sydney Harbour Bridge", "lat": -33.8523, "lng": 151.2108 },
+      { "name": "Opera House", "lat": -33.8568, "lng": 151.2153 },
+      { "name": "Bondi Beach", "lat": -33.8915, "lng": 151.2767 },
+      { "name": "Darling Harbour", "lat": -33.8731, "lng": 151.2006 },
+      { "name": "Central Station", "lat": -33.8835, "lng": 151.2063 },
+      { "name": "Circular Quay", "lat": -33.8611, "lng": 151.2113 },
+      { "name": "Star Casino", "lat": -33.8707, "lng": 151.1954 },
+      { "name": "Royal Prince Alfred Hospital", "lat": -33.8893, "lng": 151.1879 }
+    ]
+  }
+}
